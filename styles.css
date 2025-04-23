@@ -195,14 +195,19 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5%;
-    margin-bottom: 3%;
+    margin: 5% 0 3% 0;
+    gap: 10px;
+    width: 100%;
 }
 
-
+.botao3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 button {
-    background-color: #676767;
+    background-color: #551010;
     color: #f9f9f9;
     border: none;
     border-radius: 50px;
@@ -217,6 +222,6 @@ button {
 }
 
 button:hover {
-    background-color: #3f3e3e;
+    background-color: #300303;
 }
 
